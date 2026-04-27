@@ -1,0 +1,14 @@
+{
+  "name": "real-estate-contract-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "부동산 계약서 AI 분석 서비스 — 등기부등본·계약서를 AI로 분석하고 안전한 임시 계약서를 자동 생성",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "proxy:dev": "cd proxy && vercel dev",
+    "proxy:deploy": "cd proxy && vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
